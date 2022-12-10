@@ -50,7 +50,7 @@ class Cow extends Animal
 
 	function specieProduce()
 	{
-		return array("Litres of milk" => rand(8, 12));
+		return array("Liters of milk" => rand(8, 12));
 	}
 }
 
