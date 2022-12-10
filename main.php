@@ -70,6 +70,7 @@ class TechFarm {
                         if($products[$j][1] == $resource) {
                             $f = 1;
                             $products[$j][0] += $value;
+                            break;
                         } 
                     }
                     if($f == 0) {
@@ -93,6 +94,7 @@ class TechFarm {
                 if($animals[$i][1] == $mf->specieName()) {
                     $f = 1;
                     $animals[$i][0]++;
+                    break;
                 }
             }
             if($f == 0) {
